@@ -19,7 +19,5 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-        settings-path: ${{ github.workspace }}/settings.xml
-        overwrite-settings: false
     - name: Build with Maven
-      run: mvn clean install
+      run: mvn clean install -s settings.xml
