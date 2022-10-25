@@ -20,5 +20,6 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         settings-path: ${{ github.workspace }}
+        overwrite-settings: false
     - name: Build with Maven
       run: mvn clean install
