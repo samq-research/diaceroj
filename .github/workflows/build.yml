@@ -19,5 +19,6 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
+        settings-path: ${{ github.workspace }}
     - name: Build with Maven
-      run: mvn clean install -s settings.xml
+      run: mvn clean install
