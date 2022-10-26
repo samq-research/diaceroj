@@ -2,7 +2,7 @@
   "settingsInheritedFrom": "samq-democorp/whitesource-config@main",
   "hostRules": [
     {
-    "matchHost": "https://maven.pkg.github.com/samq-democorp",
+    "matchHost": "https://maven.pkg.github.com/samq-democorp/text4shell",
     "hostType": "maven",
     "username": "samq-ws",
     "encrypted": {
