@@ -1,3 +1,13 @@
 {
-  "settingsInheritedFrom": "samq-democorp/whitesource-config@main"
+  "settingsInheritedFrom": "samq-democorp/whitesource-config@main",
+  "hostRules": [
+    {
+    "matchHost": "https://maven.pkg.github.com/samq-democorp",
+    "hostType": "maven",
+    "username": "samq-ws",
+    "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf/a/J07G2Qbr+vLk+LpUcSRP59YCxSNW+VsRCA7bju3pMNzt567jo87APNYeHCEGdsXSxdJIXlOjuX6vo7IK2FqrIseEVOF8CG3V9e7tHvat6AnAoZXFesylv8vkkhRXMTqUSXCzArDJgtVMAEcj0nP5JkwBz3HHusHy17PekhKbMjruLn2F6lS/zJdZ54LCq7/MmLd9uC8lGvuuAxWrJeQreXSpDjPnqd20XCqlTgF5cZtp3IDMmpZhBDSC7U4mCK7U8TyfSAbYJHmX768OquQ5voKXWPOKSEFC2lPl/TTICEelWKUZYxJEOPDG6yomdUptUOwWbI6dYRnl+J1bHmHtJ8ATBNql7Njxnc7/pm+SroiO8tXYljVR5ymmzxcBCOobdKpjvTBQnFBZJ+Kopd08F0QKI144gsbnRROzslisucovSU8LPBUK18gA5iE2aSvretTEe8/vZXEvD4ZKEPWoDZ/1Pj3ahsWaUlVCA4rDStqBAjEshQfDCGMdi3dw"
+        }
+    }
+]
 }
