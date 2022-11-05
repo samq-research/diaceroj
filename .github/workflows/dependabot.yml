@@ -1,4 +1,5 @@
 version: 2
+updates:
 registries:
   maven-github:
     type: maven-repository
