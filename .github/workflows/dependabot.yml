@@ -1,8 +1,14 @@
 version: 2
-updates:
 registries:
   maven-github:
     type: maven-repository
     url: https://maven.pkg.github.com/samq-democorp/text4shell
     username: samq-ws
     password: ${{secrets.GITHUB_TOKEN}}
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"
+    registries:
+      - maven-github
+    schedule:
+      interval: "daily"
