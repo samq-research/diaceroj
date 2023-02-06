@@ -12,7 +12,8 @@ updates:
   - package-ecosystem: "maven"
     directory: "/"
     registries:
-      - *
+      - maven-github
+      - maven-central
     schedule:
       interval: "daily"
     open-pull-requests-limit: 100
