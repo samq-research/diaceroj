@@ -7,7 +7,7 @@ registries:
     password: ${{secrets.GH_TOKEN}}
   maven-central:
     type: maven-repository
-    url: https://repo.apache.maven.org/maven2/
+    url: https://repo.maven.apache.org/maven2/
 updates:
   - package-ecosystem: "maven"
     directory: "/"
