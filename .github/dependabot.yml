@@ -2,7 +2,7 @@ version: 2
 registries:
   maven-github:
     type: maven-repository
-    url: https://maven.pkg.github.com/samq-democorp
+    url: https://maven.pkg.github.com/samq-democorp/text4shell
     username: samq-ws
     password: ${{secrets.GH_TOKEN}}
 updates:
