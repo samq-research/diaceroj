@@ -5,11 +5,14 @@ registries:
     url: https://maven.pkg.github.com/samq-democorp/text4shell
     username: samq-ws
     password: ${{secrets.GH_TOKEN}}
+  maven-central:
+    type: maven-repository
+    url: https://repo.maven.org/maven2/
 updates:
   - package-ecosystem: "maven"
     directory: "/"
     registries:
-      - maven-github
+      - *
     schedule:
       interval: "daily"
     open-pull-requests-limit: 100
