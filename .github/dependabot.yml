@@ -5,6 +5,7 @@ registries:
     url: https://maven.pkg.github.com/samq-democorp/text4shell
     username: samq-ws
     password: ${{secrets.GH_TOKEN}}
+    replaces-base: false
 updates:
   - package-ecosystem: "maven"
     directory: "/"
