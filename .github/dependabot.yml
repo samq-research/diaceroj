@@ -10,4 +10,6 @@ updates:
     directory: "/"
     registries:
       - maven-github
+    schedule:
+      interval: "daily"
     open-pull-requests-limit: 100
